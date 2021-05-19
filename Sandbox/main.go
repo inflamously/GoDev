@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	printer "sandbox/helpers"
+	helpers "sandbox/helpers"
 )
 
 func main() {
-	printer.SimplePrint("Hello, David.")
+	helpers.SimplePrint("Hello, David.")
+	helpers.PointToInc()
 
 	fmt.Println("Hello world.")
 }
